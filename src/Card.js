@@ -2,7 +2,7 @@
 
 const Card = () => {
   return (
-    <div>
+    <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
       <img alt="robot selfie" src="https://robohash.org/faz1?200x200" />
       <div>
         <h2>RoboFaz</h2>

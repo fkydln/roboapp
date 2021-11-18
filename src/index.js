@@ -4,10 +4,16 @@ import "./index.css";
 import Card from "./Card";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "tachyons";
+import robots from "./robots";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
+    <div>
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );
